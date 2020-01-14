@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Rey
+
+        link(rel="stylesheet", href="/public/estilos_vistas/index.css")
+        link(rel="stylesheet", href="/public/bootstrapcss/bootstrap.css")
+        link(rel="stylesheet", href="/public/bootstrapcss/bootstrap-grid.css")
+        link(rel="stylesheet", href="/public/bootstrapcss/bootstrap-grid.min.css")
+        script(src='/public/bootstrapjs/bootstrap.js', type='text/javascript')
+        script(src='/public/bootstrapjs/popper.js', type='text/javascript')
+        script(src='/public/bootstrapjs/jquery.js', type='text/javascript')
+        script(src='/public/bootstrapjs/bootstrap.js', type='text/javascript')
+        script(src='/public/bootstrapjs/bootstrap.min.js', type='text/javascript')
+     
+    header.container-fluid
+         include nav_menu.pug
+    body.cuerpo
+      
+       block contenido
+            include home.pug
+
+             
+
+

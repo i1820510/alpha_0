@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Sansation-light';
+    src: url('../fuentes/Sansation_Light.ttf');
+}
+
+.opcion {
+    font-family: 'Sansation-light';
+    font-size: 1.1em;
+    color: #F2F2F2;
+}
+.opcion a {
+    color: #F2F2F2;
+}
+.barra {
+background: #0D0D0D;
+border-radius: 48px 0px 0px 96px;
+}
+
+.ico_usuario {
+ width: 30px;
+}
+.ico_carta {
+    width: 30px;
+   }
+
+.opc_ico {
+    margin-right: 2%;
+}
+
+.ico {
+    width: 26px;
+}
+
+.logo {
+    width: 120px;
+}

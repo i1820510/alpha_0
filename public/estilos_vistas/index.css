@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Sansation_Light';
+    src: url('public/Sansation_Light.ttf') format('truetype');
+}
+.cuerpo {
+    background: #F2A007;
+}
