@@ -1,0 +1,60 @@
+extends ./index.pug
+block contenido
+    div(class="container-fluid")
+      .row
+        #yelsin.carousel.slide(data-ride="carousel")
+          ol.carousel-indicators
+            li.active(data-target="#yelsin" data-slide-to="0")
+            li(data-target="#yelsin" data-slide-to="1")
+            li(data-target="#yelsin" data-slide-to="2")
+          .carousel-inner
+            .carousel-item.active
+              img.h-75.d-inline-block.w-100(src="public/imagenes/banner.jpg" alt="Mozo")
+              .carousel-caption.d-none.d-md-block
+                h1 Polleria el Rey
+                h3 Compranos
+            .carousel-item
+              img.d-block.w-100(src="public/imagenes/banner2.jpg" alt="mozo")
+              .carousel-caption.d-none.d-md-block
+                h5 Polleria el Rey
+                p Compranos
+            .carousel-item
+              img.d-block.w-100(src="public/imagenes/banner1.jpg" alt="pollos")
+              .carousel-caption.d-none.d-md-block
+                h5 Polleria el Rey
+                p Compranos
+          a.carousel-control-prev(href="#yelsin" role="button" data-slide="prev")
+            span.carousel-control-prev-icon(aria-hidden="true")
+            span.sr-only Previous
+          a.carousel-control-next(href="#yelsin" role="button" data-slide="next")
+            span.carousel-control-next-icon(aria-hidden="true")
+            span.sr-only Next
+      section#acerca-de
+      .contenido-seccion
+        .container
+          .row
+            .col-md-6
+              .texto-acerca-de
+                h3 Nuestra Historia
+                p.lead
+                  | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat facilis, dignissimos adipisci nulla optio ipsum, ea dolorum, quis amet est modi. Deleniti quae autem sapiente inventore ipsa quidem eaque debitis.
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum mollitia sit dolorem autem qui possimus ex voluptate, voluptatibus iste unde numquam illum, molestiae reprehenderit, eligendi. Illum quod esse voluptatibus.
+                h3 Redes sociales
+                
+                a.btn(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/whatsap.svg", alt="Card image cap", class="btn zoom img-fluid"  href="", style="width: 80px; height: 80px; margin: auto;")
+                a.btn(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/faceboo.svg", alt="Card image cap", class="btn zoom img-fluid"  href="", style="width: 80px; height: 80px; margin: auto;")
+                a.btn(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/youtube.svg", alt="Card image cap", class="btn zoom img-fluid"  href="", style="width: 80px; height: 80px; margin: auto;")
+                a.btn(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/twitter.svg", alt="Card image cap", class="btn zoom img-fluid"  href="", style="width: 80px; height: 80px; margin: auto;")
+            .col-md-6
+              .texto-acerca-de
+                h3 Vision
+                p.lead
+                  | Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, repellendus? Magnam impedit obcaecati harum quidem blanditiis, ab nobis corporis sequi, iure magni aspernatur, cum omnis rerum nemo beatae consequatur nesciunt?
+                h3 Mision
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum mollitia sit dolorem autem qui possimus ex voluptate, voluptatibus iste unde numquam illum, molestiae reprehenderit, eligendi. Illum quod esse voluptatibus.

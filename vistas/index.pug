@@ -5,7 +5,9 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Rey
-
+        link(rel="stylesheet", href="/public/estilos_vistas/nosotros.css")
+        link(rel="stylesheet", href="/public/estilos_vistas/contactos.css")
+        
         link(rel="stylesheet", href="/public/estilos_vistas/index.css")
         link(rel="stylesheet", href="/public/bootstrapcss/bootstrap.css")
         link(rel="stylesheet", href="/public/bootstrapcss/bootstrap-grid.css")
@@ -19,9 +21,11 @@ html(lang="en")
     header.container-fluid
          include nav_menu.pug
     body.cuerpo
-      
-       block contenido
-            include home.pug
+      div
+        block contenido
+             include home.pug
+            
+            
 
              
 

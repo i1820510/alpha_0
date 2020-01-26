@@ -1,0 +1,69 @@
+extends ./index.pug
+block contenido
+    div(id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel")
+        div(class="carousel-inner")
+            div(class="carousel-item active")
+                img(src="public/imagenes/plato0.jpg", alt="", class="d-block w-100" style=" width:100%; height: 650px;")
+            div(class="carousel-item")
+                img(src="public/imagenes/banner1.jpg", alt="", class="d-block w-100")
+            div(class="carousel-item")
+                img(src="public/imagenes/banner2.jpg", alt="", class="d-block w-100")
+  
+
+    div(class="container")
+        div(class="card-deck", style="background: #F2F2F2; margin-top: -7em")
+            div(class="card")
+                a(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/whatsap.svg", alt="Card image cap", class="btn zoom img-fluid"  href="", style="width: 120px; height: 120px; margin: auto;")
+                div(class="card-body", style="background: black; color: aliceblue;")
+                    h5(class="card-title") 959478662 / 175862314
+                h6(class="card-text", style="padding-bottom: 15px;") escribenos al wassap
+            div(class="card")
+                a(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/faceboo.svg", alt="Card image cap", class="btn zoom  img-fluid"  href="", style="width: 120px; height: 120px; margin: auto;")
+                div(class="card-body", style="background: black; color: aliceblue;")
+                    h5(class="card-title") Facebook
+                h6(class="card-text", style="padding-bottom: 15px;") Encuentrnos en facebook
+            div(class="card")
+                a(href="https://web.whatsapp.com/", style="margin: auto;")
+                    img(src="public/iconos/email.svg", alt="Card image cap", class="btn zoom  img-fluid"  href="", style="width: 120px; height: 120px; margin: auto;")
+                div(class="card-body", style="background: black; color: aliceblue;")
+                    h5(class="card-title") Correo de Consultas
+                h6(class="card-text", style="padding-bottom: 15px;") pollereriaelrey@polleriaelrey.com
+            
+    
+
+    form(class="conatiner contenedor")
+        div(class="row justify-content-center sub")
+            div(class="col-7")
+                div(class="form-row")
+                    div(class="form-group col-md-6")
+                        label(for='inputEmail4') Email
+                        input#inputEmail4.form-control(type='email' placeholder='Correo electronico')
+                    div(class="form-group col-md-6")
+                        label(for='inputPassword4') Contraseña
+                        input#inputPassword4.form-control(type='password' placeholder='Contraseña')
+                div(class="form-group")
+                    label(for='inputAddress') Direcion
+                    input#inputAddress.form-control(type='text' placeholder='1234 Alelies El Tambo')
+                div(class="form-group")
+                    label(for="exampleFormControlTextarea1") Escribenos tu comentario
+                    textarea(class="form-control", cols="30", rows="4")
+                div(class="form-row")
+                    div(class="form-group col-md-6")
+                        label(for='inputCity') Ciudad
+                        input#inputCity.form-control(type='text' placeholder='Huancayo')
+                    div(class="form-group col-md-4")
+                        label(for='inputState') Departamento
+                        select#inputState.form-control
+                            option(selected='') Elegir
+                            option Junin
+                            option Huanuco
+                            option Lima
+                            option huancavelica
+                div(class="form-group")
+                    div(class="form-check")
+                        input#gridCheck.form-check-input(type='checkbox')
+                        label.form-check-label(for='gridCheck')
+                        | Acepto
+                button.btn.btn-primary(type='submit') Enviar

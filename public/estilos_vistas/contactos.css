@@ -1,0 +1,32 @@
+.contenedor {
+    padding: 2em;
+}
+.sub {
+    background-color: #cccccc;
+    padding: 2em;
+    border-radius: 2em;
+}
+.abajo{
+    border: solid 2px coral;
+    border-radius: 12px;
+    margin: 1px;
+}
+.card-deck .card{
+    border-radius: 15px 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: solid 2px #F2A007;
+    text-align: center;
+    
+}
+.card-body {
+    margin: auto;
+    border-radius: 15px 50px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.zoom:hover{
+    transform : scale(2);
+    -moz-transform : scale(2); 
+    -webkit-transform : scale(2);   
+    -o-transform : scale(2);       
+}
