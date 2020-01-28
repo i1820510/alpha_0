@@ -19,6 +19,6 @@ app.get('/', function(req, res, next){
 app.use('/home', homeRuta);
 app.use('/menu', menuRuta);
 
-app.listen(3000, function(){
+app.listen(4000, function(){
     console.log('servidor inciando');
 });
